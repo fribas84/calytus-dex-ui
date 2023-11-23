@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Head from 'next/head';
 import Navbar from './Navbar';
+import { Hidratation } from './Hidratation';
 
 interface LayoutProps {
     children: ReactNode;
@@ -13,14 +14,15 @@ export default function Layout({ children }: LayoutProps) {
     return (
         <>
             <Head>
-                <title>BarDAO</title>
+                <title>baDEX</title>
                 <meta
-                    content="a platform as a service community builder powered by blockchain"
+                    content="a descentralized DEX project"
                     name="description"
                 />
                 <link href="/favicon.ico" rel="icon" />
             </Head>
             <main>
+                <Hidratation>
                 <div className='m-10'>
                 
                 <Navbar />
@@ -30,6 +32,7 @@ export default function Layout({ children }: LayoutProps) {
 
 
                 </div>
+                </Hidratation>
             </main >
         </>
     );

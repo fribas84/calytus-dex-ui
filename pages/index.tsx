@@ -19,7 +19,6 @@ const Home: NextPage = () => {
         </Head>
   
         <main className="container-fluid" >
-          <Navbar />
           <div className='m-10 '>
             <div className='hero bg-base-200 rounded-xl'>
               <div className="hero-content text-center">
