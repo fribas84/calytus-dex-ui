@@ -13,7 +13,9 @@ const Actions = () => {
                 </div>
                 <div className="fone">
                     <ul className="menu menu-horizontal">
-                    <li> <a className="btn btn-ghost text-xl">daisyUI</a></li>
+                    <li> <a className="btn btn-ghost text-xl">Withdraw</a></li>
+                    <li> <a className="btn btn-ghost text-xl">Deposit</a></li>
+                    <li> <a className="btn btn-ghost text-xl">Create Order</a></li>
                     </ul>
                 </div>
             </div>
