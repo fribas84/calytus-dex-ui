@@ -15,7 +15,8 @@ const Dex: NextPage = () => {
                 </div>
             }
             {isConnected &&
-                <div className='container mx-auto'>'
+                <div className='container mx-auto'>
+                    <Actions />
                     <div className="flex flex-col w-full lg:flex-row">
                         <div className="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center"><div className="stats bg-primary text-primary-content">
 
