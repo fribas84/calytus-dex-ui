@@ -24,7 +24,7 @@ const Faucet: NextPage = () => {
                                 height={500} 
                                 alt="Faucet"/>
                             <div>
-                                <h1 className="text-5xl font-bold">Test Token Faucet!</h1>
+                                <h1 className="text-5xl font-bold">Test Tokens Faucet!</h1>
                                 <p className="py-6">Request tradable tokens to play around with the platform.</p>
                                 <button className="btn btn-primary">Request tkn1</button>
                                 <button className="btn btn-secondary mx-5">Request tkn2</button>
